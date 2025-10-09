@@ -1,6 +1,6 @@
 body {
-    background: rgba(134, 211, 232, 0.967);
-    color: rgb(17, 12, 12);
+    background: rgb(172, 223, 248);
+    color: rgb(10, 7, 4);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(16, 17, 18);
+    background: rgb(6, 6, 5);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(248, 249, 251);
     flex: 1;
     margin: 0;
 }
@@ -40,12 +40,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fcf6f6;
+    color: #f1efef;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(17, 16, 14);
+    background: rgb(15, 15, 14);
     display: flex;
     margin-top: 20px;
 }
@@ -61,12 +61,12 @@ main {
 
 .content {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
 }
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(28, 28, 32) ridge;
+    border: 4px rgb(15, 13, 13) ridge;
     padding: 8px;
     margin-top: 20px;
 }
