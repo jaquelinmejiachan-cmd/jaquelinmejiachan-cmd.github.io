@@ -100,11 +100,15 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-         if (positionX > boardWidth) {
-          speed = speed * -1;
-          speed *= -1;
-          
-         }
+        positionX =0
+        points = points + 1;
+        changeTextBox(points)
+        if(speed > 0){
+         speed = speed + 3  
+        } else if (speed < 0){
+          speed = speed -3
+        }
+        }
 
 
 
@@ -112,7 +116,7 @@
 
 
         
-      })();
+      }();
     </script>
   </body>
 </html>
